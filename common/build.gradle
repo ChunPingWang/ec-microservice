@@ -1,0 +1,16 @@
+dependencies {
+    // Common module doesn't need Spring Boot starter
+    implementation 'org.springframework:spring-context'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations'
+}
+
+// Common module should not create executable jar
+jar {
+    enabled = true
+    archiveClassifier = ''
+}
+
+bootJar {
+    enabled = false
+}

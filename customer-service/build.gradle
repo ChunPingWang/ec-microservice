@@ -1,0 +1,14 @@
+dependencies {
+    implementation project(':common')
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'org.springframework.boot:spring-boot-starter-amqp'
+    
+    // 本機開發使用 H2，生產環境使用 PostgreSQL (已在根 build.gradle 定義)
+    
+    testImplementation 'org.testcontainers:postgresql'
+}
+
+bootJar {
+    archiveFileName = 'customer-service.jar'
+}

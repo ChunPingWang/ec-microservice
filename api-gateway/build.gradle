@@ -1,0 +1,12 @@
+dependencies {
+    implementation project(':common')
+    implementation 'org.springframework.cloud:spring-cloud-starter-gateway'
+    implementation 'org.springframework.cloud:spring-cloud-starter-loadbalancer'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    
+    testImplementation 'org.springframework.cloud:spring-cloud-starter-contract-stub-runner'
+}
+
+bootJar {
+    archiveFileName = 'api-gateway.jar'
+}

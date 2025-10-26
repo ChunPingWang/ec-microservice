@@ -1,0 +1,13 @@
+dependencies {
+    implementation project(':common')
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'org.springframework.boot:spring-boot-starter-amqp'
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+    
+    testImplementation 'org.testcontainers:postgresql'
+}
+
+bootJar {
+    archiveFileName = 'order-service.jar'
+}
