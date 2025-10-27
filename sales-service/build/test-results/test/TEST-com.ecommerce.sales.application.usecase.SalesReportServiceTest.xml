@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="銷售報表服務測試" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-10-27T15:44:18" hostname="RexdeMacBook-Pro.local" time="0.046">
+  <properties/>
+  <testcase name="取得不存在的報表時應拋出異常" classname="com.ecommerce.sales.application.usecase.SalesReportServiceTest" time="0.014"/>
+  <testcase name="應該成功生成客戶報表" classname="com.ecommerce.sales.application.usecase.SalesReportServiceTest" time="0.006"/>
+  <testcase name="開始日期晚於結束日期時應拋出異常" classname="com.ecommerce.sales.application.usecase.SalesReportServiceTest" time="0.002"/>
+  <testcase name="應該成功生成月度銷售報表" classname="com.ecommerce.sales.application.usecase.SalesReportServiceTest" time="0.002"/>
+  <testcase name="日期範圍超過一年時應拋出異常" classname="com.ecommerce.sales.application.usecase.SalesReportServiceTest" time="0.001"/>
+  <testcase name="應該成功匯出Excel報表" classname="com.ecommerce.sales.application.usecase.SalesReportServiceTest" time="0.002"/>
+  <testcase name="應該成功根據ID取得報表" classname="com.ecommerce.sales.application.usecase.SalesReportServiceTest" time="0.002"/>
+  <testcase name="應該成功生成區域報表" classname="com.ecommerce.sales.application.usecase.SalesReportServiceTest" time="0.002"/>
+  <testcase name="應該成功刪除報表" classname="com.ecommerce.sales.application.usecase.SalesReportServiceTest" time="0.002"/>
+  <testcase name="應該成功生成分類報表" classname="com.ecommerce.sales.application.usecase.SalesReportServiceTest" time="0.003"/>
+  <testcase name="不支援的格式應拋出異常" classname="com.ecommerce.sales.application.usecase.SalesReportServiceTest" time="0.002"/>
+  <testcase name="應該成功取得指定類型的報表清單" classname="com.ecommerce.sales.application.usecase.SalesReportServiceTest" time="0.002"/>
+  <testcase name="應該成功匯出PDF報表" classname="com.ecommerce.sales.application.usecase.SalesReportServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

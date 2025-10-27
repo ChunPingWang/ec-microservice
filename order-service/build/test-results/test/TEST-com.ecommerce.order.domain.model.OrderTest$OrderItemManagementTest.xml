@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="訂單項目管理測試" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.334">
+  <properties/>
+  <testcase name="應該成功更新訂單項目數量" classname="com.ecommerce.order.domain.model.OrderTest$OrderItemManagementTest" time="0.001"/>
+  <testcase name="當訂單狀態不允許修改時應該拋出異常" classname="com.ecommerce.order.domain.model.OrderTest$OrderItemManagementTest" time="0.004"/>
+  <testcase name="當訂單項目為null時應該拋出異常" classname="com.ecommerce.order.domain.model.OrderTest$OrderItemManagementTest" time="0.001"/>
+  <testcase name="應該成功新增訂單項目" classname="com.ecommerce.order.domain.model.OrderTest$OrderItemManagementTest" time="0.0"/>
+  <testcase name="應該成功移除訂單項目" classname="com.ecommerce.order.domain.model.OrderTest$OrderItemManagementTest" time="0.001"/>
+  <testcase name="應該成功更新訂單項目數量" classname="com.ecommerce.order.domain.model.OrderTest$OrderItemManagementTest" time="0.0"/>
+  <testcase name="當訂單狀態不允許修改時應該拋出異常" classname="com.ecommerce.order.domain.model.OrderTest$OrderItemManagementTest" time="0.0"/>
+  <testcase name="當訂單項目為null時應該拋出異常" classname="com.ecommerce.order.domain.model.OrderTest$OrderItemManagementTest" time="0.001"/>
+  <testcase name="應該成功新增訂單項目" classname="com.ecommerce.order.domain.model.OrderTest$OrderItemManagementTest" time="0.0"/>
+  <testcase name="應該成功移除訂單項目" classname="com.ecommerce.order.domain.model.OrderTest$OrderItemManagementTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

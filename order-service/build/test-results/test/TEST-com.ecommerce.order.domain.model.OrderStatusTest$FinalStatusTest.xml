@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="最終狀態測試" tests="14" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.344">
+  <properties/>
+  <testcase name="DELIVERED應該是最終狀態" classname="com.ecommerce.order.domain.model.OrderStatusTest$FinalStatusTest" time="0.0"/>
+  <testcase name="[1] status=PENDING" classname="com.ecommerce.order.domain.model.OrderStatusTest$FinalStatusTest" time="0.0"/>
+  <testcase name="[2] status=CONFIRMED" classname="com.ecommerce.order.domain.model.OrderStatusTest$FinalStatusTest" time="0.0"/>
+  <testcase name="[3] status=PAID" classname="com.ecommerce.order.domain.model.OrderStatusTest$FinalStatusTest" time="0.0"/>
+  <testcase name="[4] status=SHIPPED" classname="com.ecommerce.order.domain.model.OrderStatusTest$FinalStatusTest" time="0.0"/>
+  <testcase name="CANCELLED應該是最終狀態" classname="com.ecommerce.order.domain.model.OrderStatusTest$FinalStatusTest" time="0.0"/>
+  <testcase name="REFUNDED應該是最終狀態" classname="com.ecommerce.order.domain.model.OrderStatusTest$FinalStatusTest" time="0.0"/>
+  <testcase name="DELIVERED應該是最終狀態" classname="com.ecommerce.order.domain.model.OrderStatusTest$FinalStatusTest" time="0.0"/>
+  <testcase name="[1] status=PENDING" classname="com.ecommerce.order.domain.model.OrderStatusTest$FinalStatusTest" time="0.001"/>
+  <testcase name="[2] status=CONFIRMED" classname="com.ecommerce.order.domain.model.OrderStatusTest$FinalStatusTest" time="0.001"/>
+  <testcase name="[3] status=PAID" classname="com.ecommerce.order.domain.model.OrderStatusTest$FinalStatusTest" time="0.0"/>
+  <testcase name="[4] status=SHIPPED" classname="com.ecommerce.order.domain.model.OrderStatusTest$FinalStatusTest" time="0.0"/>
+  <testcase name="CANCELLED應該是最終狀態" classname="com.ecommerce.order.domain.model.OrderStatusTest$FinalStatusTest" time="0.001"/>
+  <testcase name="REFUNDED應該是最終狀態" classname="com.ecommerce.order.domain.model.OrderStatusTest$FinalStatusTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

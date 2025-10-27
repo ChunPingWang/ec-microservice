@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="付款領域服務測試" tests="17" skipped="0" failures="0" errors="0" timestamp="2025-10-27T06:03:33" hostname="RexdeMacBook-Pro.local" time="0.044">
+  <properties/>
+  <testcase name="驗證付款請求 - 過期信用卡" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.013"/>
+  <testcase name="計算信用卡退款手續費 - 最高手續費" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.001"/>
+  <testcase name="驗證付款請求 - 訂單已有成功付款" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.002"/>
+  <testcase name="驗證客戶付款權限 - 客戶不匹配" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.002"/>
+  <testcase name="驗證付款請求 - 超過每日付款限額" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.002"/>
+  <testcase name="計算信用卡退款手續費" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.001"/>
+  <testcase name="驗證付款請求 - 金額超過單筆限額" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.001"/>
+  <testcase name="計算銀行轉帳退款手續費 - 免手續費" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.001"/>
+  <testcase name="計算信用卡退款手續費 - 最低手續費" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.001"/>
+  <testcase name="驗證付款請求 - 成功案例" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.002"/>
+  <testcase name="檢查付款是否超時" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.001"/>
+  <testcase name="驗證客戶付款權限 - 成功" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.001"/>
+  <testcase name="檢查是否可以重試付款 - 失敗次數達到上限" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.001"/>
+  <testcase name="檢查付款未超時" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.001"/>
+  <testcase name="檢查是否可以重試付款 - 失敗次數未達上限" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.001"/>
+  <testcase name="自動取消超時交易" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.004"/>
+  <testcase name="獲取客戶付款統計資訊" classname="com.ecommerce.payment.domain.service.PaymentDomainServiceTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

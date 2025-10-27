@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="從購物車建立訂單測試" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.079">
+  <properties/>
+  <testcase name="應該成功從購物車建立訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$CreateOrderFromCartTest" time="0.008"/>
+  <testcase name="當庫存不足時應該拋出異常" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$CreateOrderFromCartTest" time="0.002"/>
+  <testcase name="當購物車不存在時應該拋出異常" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$CreateOrderFromCartTest" time="0.002"/>
+  <testcase name="當購物車驗證失敗時應該拋出異常" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$CreateOrderFromCartTest" time="0.003"/>
+  <testcase name="當商品不可用時應該拋出異常" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$CreateOrderFromCartTest" time="0.003"/>
+  <testcase name="應該成功從購物車建立訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$CreateOrderFromCartTest" time="0.004"/>
+  <testcase name="當庫存不足時應該拋出異常" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$CreateOrderFromCartTest" time="0.002"/>
+  <testcase name="當購物車不存在時應該拋出異常" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$CreateOrderFromCartTest" time="0.001"/>
+  <testcase name="當購物車驗證失敗時應該拋出異常" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$CreateOrderFromCartTest" time="0.001"/>
+  <testcase name="當商品不可用時應該拋出異常" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$CreateOrderFromCartTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

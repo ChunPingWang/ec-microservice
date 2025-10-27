@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="狀態轉換測試" tests="14" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.342">
+  <properties/>
+  <testcase name="SHIPPED狀態應該只能轉換到DELIVERED" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionTest" time="0.0"/>
+  <testcase name="REFUNDED狀態不應該轉換到任何其他狀態" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionTest" time="0.001"/>
+  <testcase name="PAID狀態應該可以轉換到SHIPPED或REFUNDED" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionTest" time="0.0"/>
+  <testcase name="PENDING狀態應該可以轉換到CONFIRMED或CANCELLED" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionTest" time="0.0"/>
+  <testcase name="CONFIRMED狀態應該可以轉換到PAID或CANCELLED" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionTest" time="0.0"/>
+  <testcase name="DELIVERED狀態應該可以轉換到REFUNDED" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionTest" time="0.0"/>
+  <testcase name="CANCELLED狀態不應該轉換到任何其他狀態" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionTest" time="0.001"/>
+  <testcase name="SHIPPED狀態應該只能轉換到DELIVERED" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionTest" time="0.001"/>
+  <testcase name="REFUNDED狀態不應該轉換到任何其他狀態" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionTest" time="0.0"/>
+  <testcase name="PAID狀態應該可以轉換到SHIPPED或REFUNDED" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionTest" time="0.0"/>
+  <testcase name="PENDING狀態應該可以轉換到CONFIRMED或CANCELLED" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionTest" time="0.0"/>
+  <testcase name="CONFIRMED狀態應該可以轉換到PAID或CANCELLED" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionTest" time="0.0"/>
+  <testcase name="DELIVERED狀態應該可以轉換到REFUNDED" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionTest" time="0.0"/>
+  <testcase name="CANCELLED狀態不應該轉換到任何其他狀態" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

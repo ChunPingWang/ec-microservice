@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="客戶訂單權限驗證測試" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.49">
+  <properties/>
+  <testcase name="應該成功驗證客戶對自己訂單的權限" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$CustomerOrderAccessValidationTest" time="0.003"/>
+  <testcase name="當客戶嘗試存取他人訂單時應該拋出異常" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$CustomerOrderAccessValidationTest" time="0.002"/>
+  <testcase name="應該成功驗證客戶對自己訂單的權限" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$CustomerOrderAccessValidationTest" time="0.001"/>
+  <testcase name="當客戶嘗試存取他人訂單時應該拋出異常" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$CustomerOrderAccessValidationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

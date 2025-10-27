@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="銷售報表測試" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-10-27T15:44:18" hostname="RexdeMacBook-Pro.local" time="0.006">
+  <properties/>
+  <testcase name="開始日期晚於結束日期時應拋出異常" classname="com.ecommerce.sales.domain.model.SalesReportTest" time="0.001"/>
+  <testcase name="應該成功建立有效的銷售報表" classname="com.ecommerce.sales.domain.model.SalesReportTest" time="0.001"/>
+  <testcase name="報表ID為空時應拋出異常" classname="com.ecommerce.sales.domain.model.SalesReportTest" time="0.0"/>
+  <testcase name="應該正確計算銷售指標" classname="com.ecommerce.sales.domain.model.SalesReportTest" time="0.001"/>
+  <testcase name="應該正確過濾通道記錄" classname="com.ecommerce.sales.domain.model.SalesReportTest" time="0.001"/>
+  <testcase name="空報表應該有零指標" classname="com.ecommerce.sales.domain.model.SalesReportTest" time="0.001"/>
+  <testcase name="應該正確處理額外資料" classname="com.ecommerce.sales.domain.model.SalesReportTest" time="0.0"/>
+  <testcase name="應該正確檢查日期範圍包含" classname="com.ecommerce.sales.domain.model.SalesReportTest" time="0.0"/>
+  <testcase name="應該正確過濾分類記錄" classname="com.ecommerce.sales.domain.model.SalesReportTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

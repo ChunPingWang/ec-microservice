@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="訂單項目總價計算測試" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.36">
+  <properties/>
+  <testcase name="應該正確計算帶小數點的總價" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemTotalPriceCalculationTest" time="0.0"/>
+  <testcase name="應該正確計算單一商品的總價" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemTotalPriceCalculationTest" time="0.0"/>
+  <testcase name="應該正確計算多個商品的總價" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemTotalPriceCalculationTest" time="0.0"/>
+  <testcase name="應該正確計算帶小數點的總價" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemTotalPriceCalculationTest" time="0.0"/>
+  <testcase name="應該正確計算單一商品的總價" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemTotalPriceCalculationTest" time="0.001"/>
+  <testcase name="應該正確計算多個商品的總價" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemTotalPriceCalculationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

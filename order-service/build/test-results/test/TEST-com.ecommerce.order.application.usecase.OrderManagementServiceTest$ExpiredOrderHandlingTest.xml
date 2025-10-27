@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="超時訂單處理測試" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.207">
+  <properties/>
+  <testcase name="應該成功取消超時訂單並釋放庫存" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$ExpiredOrderHandlingTest" time="0.124"/>
+  <testcase name="應該成功取消超時訂單並釋放庫存" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$ExpiredOrderHandlingTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

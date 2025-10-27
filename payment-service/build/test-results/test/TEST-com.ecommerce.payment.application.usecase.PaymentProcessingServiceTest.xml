@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="付款處理服務測試" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-10-27T06:03:33" hostname="RexdeMacBook-Pro.local" time="0.133">
+  <properties/>
+  <testcase name="退款處理" classname="com.ecommerce.payment.application.usecase.PaymentProcessingServiceTest" time="0.109"/>
+  <testcase name="付款取消" classname="com.ecommerce.payment.application.usecase.PaymentProcessingServiceTest" time="0.004"/>
+  <testcase name="餘額不足錯誤處理" classname="com.ecommerce.payment.application.usecase.PaymentProcessingServiceTest" time="0.004"/>
+  <testcase name="付款處理異常時的錯誤處理" classname="com.ecommerce.payment.application.usecase.PaymentProcessingServiceTest" time="0.002"/>
+  <testcase name="信用卡付款成功案例" classname="com.ecommerce.payment.application.usecase.PaymentProcessingServiceTest" time="0.004"/>
+  <testcase name="付款狀態查詢" classname="com.ecommerce.payment.application.usecase.PaymentProcessingServiceTest" time="0.002"/>
+  <testcase name="網路錯誤時的重試機制" classname="com.ecommerce.payment.application.usecase.PaymentProcessingServiceTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

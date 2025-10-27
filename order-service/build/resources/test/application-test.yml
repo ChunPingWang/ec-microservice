@@ -1,0 +1,80 @@
+spring:
+  application:
+    name: order-service-test
+  
+  # 測試資料庫配置
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+  
+  # JPA 配置
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.H2Dialect
+  
+  # H2 控制台（測試時可用）
+  h2:
+    console:
+      enabled: true
+  
+  # Redis 配置（測試時使用嵌入式）
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      database: 1
+      timeout: 2000ms
+  
+  # RabbitMQ 配置（測試時可以禁用）
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+
+# 日誌配置
+logging:
+  level:
+    com.ecommerce.order: DEBUG
+    org.springframework.web: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+
+# 測試專用配置
+test:
+  # 禁用某些功能以加速測試
+  disable-messaging: true
+  disable-cache: false
+  
+# Actuator 配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+
+# 應用程式配置
+app:
+  order:
+    # 測試用的較短超時時間
+    timeout-hours: 1
+    max-amount: 1000000
+    shipping:
+      free-threshold: 1000
+      taipei-fee: 60
+      other-fee: 100
+    tax:
+      rate: 0.05

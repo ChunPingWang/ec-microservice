@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="訂單項目業務方法測試" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.361">
+  <properties/>
+  <testcase name="當更新單價為無效值時應該拋出異常" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemBusinessMethodTest" time="0.0"/>
+  <testcase name="應該成功更新數量並重新計算總價" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemBusinessMethodTest" time="0.0"/>
+  <testcase name="應該成功更新單價並重新計算總價" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemBusinessMethodTest" time="0.001"/>
+  <testcase name="當更新數量為無效值時應該拋出異常" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemBusinessMethodTest" time="0.001"/>
+  <testcase name="當更新單價為無效值時應該拋出異常" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemBusinessMethodTest" time="0.0"/>
+  <testcase name="應該成功更新數量並重新計算總價" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemBusinessMethodTest" time="0.0"/>
+  <testcase name="應該成功更新單價並重新計算總價" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemBusinessMethodTest" time="0.0"/>
+  <testcase name="當更新數量為無效值時應該拋出異常" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemBusinessMethodTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

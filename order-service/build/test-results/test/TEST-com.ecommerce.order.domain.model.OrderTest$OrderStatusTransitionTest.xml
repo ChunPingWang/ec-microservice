@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="訂單狀態轉換測試" tests="18" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.342">
+  <properties/>
+  <testcase name="當訂單狀態不允許退款時應該拋出異常" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.001"/>
+  <testcase name="應該成功標記為已付款" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.001"/>
+  <testcase name="應該成功退款" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.0"/>
+  <testcase name="應該成功確認訂單" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.001"/>
+  <testcase name="應該成功出貨" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.001"/>
+  <testcase name="當訂單沒有項目時確認應該拋出異常" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.0"/>
+  <testcase name="當訂單狀態不允許取消時應該拋出異常" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.0"/>
+  <testcase name="應該成功送達" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.0"/>
+  <testcase name="應該成功取消訂單" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.002"/>
+  <testcase name="當訂單狀態不允許退款時應該拋出異常" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.0"/>
+  <testcase name="應該成功標記為已付款" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.0"/>
+  <testcase name="應該成功退款" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.0"/>
+  <testcase name="應該成功確認訂單" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.0"/>
+  <testcase name="應該成功出貨" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.001"/>
+  <testcase name="當訂單沒有項目時確認應該拋出異常" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.0"/>
+  <testcase name="當訂單狀態不允許取消時應該拋出異常" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.0"/>
+  <testcase name="應該成功送達" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.0"/>
+  <testcase name="應該成功取消訂單" classname="com.ecommerce.order.domain.model.OrderTest$OrderStatusTransitionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

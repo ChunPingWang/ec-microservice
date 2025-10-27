@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="銷售記錄測試" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-10-27T15:44:18" hostname="RexdeMacBook-Pro.local" time="0.005">
+  <properties/>
+  <testcase name="應該成功建立有效的銷售記錄" classname="com.ecommerce.sales.domain.model.SalesRecordTest" time="0.0"/>
+  <testcase name="應該正確處理無折扣的情況" classname="com.ecommerce.sales.domain.model.SalesRecordTest" time="0.001"/>
+  <testcase name="應該正確識別高價值銷售" classname="com.ecommerce.sales.domain.model.SalesRecordTest" time="0.0"/>
+  <testcase name="銷售記錄ID為空時應拋出異常" classname="com.ecommerce.sales.domain.model.SalesRecordTest" time="0.001"/>
+  <testcase name="應該正確識別促銷銷售" classname="com.ecommerce.sales.domain.model.SalesRecordTest" time="0.0"/>
+  <testcase name="單價為負數時應拋出異常" classname="com.ecommerce.sales.domain.model.SalesRecordTest" time="0.001"/>
+  <testcase name="應該正確計算折扣率" classname="com.ecommerce.sales.domain.model.SalesRecordTest" time="0.0"/>
+  <testcase name="無折扣時折扣率應為零" classname="com.ecommerce.sales.domain.model.SalesRecordTest" time="0.001"/>
+  <testcase name="折扣為負數時應拋出異常" classname="com.ecommerce.sales.domain.model.SalesRecordTest" time="0.0"/>
+  <testcase name="數量為零或負數時應拋出異常" classname="com.ecommerce.sales.domain.model.SalesRecordTest" time="0.001"/>
+  <testcase name="應該正確計算總金額" classname="com.ecommerce.sales.domain.model.SalesRecordTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

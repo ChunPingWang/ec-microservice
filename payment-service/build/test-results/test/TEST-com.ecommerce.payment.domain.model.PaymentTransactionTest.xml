@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="付款交易實體測試" tests="21" skipped="0" failures="0" errors="0" timestamp="2025-10-27T06:03:33" hostname="RexdeMacBook-Pro.local" time="0.021">
+  <properties/>
+  <testcase name="處理全額退款" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.001"/>
+  <testcase name="驗證付款方式必填" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.001"/>
+  <testcase name="驗證必填欄位 - 訂單ID" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.0"/>
+  <testcase name="驗證信用卡付款必須提供信用卡資訊" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.0"/>
+  <testcase name="建立信用卡付款交易" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.0"/>
+  <testcase name="驗證描述長度限制" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.001"/>
+  <testcase name="建立一般付款交易" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.0"/>
+  <testcase name="付款交易狀態轉換 - 從待處理到處理中" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.0"/>
+  <testcase name="付款交易狀態轉換 - 從處理中到成功" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.002"/>
+  <testcase name="無法取消已成功的付款交易" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.001"/>
+  <testcase name="檢查交易是否可以退款" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.0"/>
+  <testcase name="處理部分退款" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.0"/>
+  <testcase name="驗證金額必須大於零" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.0"/>
+  <testcase name="付款交易狀態轉換 - 從處理中到失敗" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.001"/>
+  <testcase name="驗證必填欄位 - 客戶ID" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.001"/>
+  <testcase name="無法退款超過可用金額" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.0"/>
+  <testcase name="驗證金額小數位數" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.001"/>
+  <testcase name="檢查交易是否可以取消" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.001"/>
+  <testcase name="交易相等性比較" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.001"/>
+  <testcase name="取消待處理的付款交易" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.001"/>
+  <testcase name="無法退款失敗的交易" classname="com.ecommerce.payment.domain.model.PaymentTransactionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

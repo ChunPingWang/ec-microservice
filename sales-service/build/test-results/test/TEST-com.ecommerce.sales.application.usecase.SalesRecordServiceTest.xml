@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="銷售記錄服務測試" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-10-27T15:44:17" hostname="RexdeMacBook-Pro.local" time="0.66">
+  <properties/>
+  <testcase name="建立高價值銷售記錄時應發布高價值銷售事件" classname="com.ecommerce.sales.application.usecase.SalesRecordServiceTest" time="0.626"/>
+  <testcase name="應該成功根據訂單ID查詢銷售記錄" classname="com.ecommerce.sales.application.usecase.SalesRecordServiceTest" time="0.003"/>
+  <testcase name="開始日期晚於結束日期時應拋出異常" classname="com.ecommerce.sales.application.usecase.SalesRecordServiceTest" time="0.003"/>
+  <testcase name="查詢不存在的銷售記錄時應拋出異常" classname="com.ecommerce.sales.application.usecase.SalesRecordServiceTest" time="0.007"/>
+  <testcase name="應該成功根據分類查詢銷售記錄" classname="com.ecommerce.sales.application.usecase.SalesRecordServiceTest" time="0.002"/>
+  <testcase name="應該成功根據通道查詢銷售記錄" classname="com.ecommerce.sales.application.usecase.SalesRecordServiceTest" time="0.002"/>
+  <testcase name="應該成功根據ID查詢銷售記錄" classname="com.ecommerce.sales.application.usecase.SalesRecordServiceTest" time="0.002"/>
+  <testcase name="應該成功根據日期範圍查詢銷售記錄" classname="com.ecommerce.sales.application.usecase.SalesRecordServiceTest" time="0.002"/>
+  <testcase name="應該成功建立銷售記錄" classname="com.ecommerce.sales.application.usecase.SalesRecordServiceTest" time="0.005"/>
+  <testcase name="應該成功根據客戶ID查詢銷售記錄" classname="com.ecommerce.sales.application.usecase.SalesRecordServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

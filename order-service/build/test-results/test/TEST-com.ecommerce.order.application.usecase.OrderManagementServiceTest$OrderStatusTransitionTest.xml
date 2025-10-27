@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="訂單狀態轉換測試" tests="16" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.089">
+  <properties/>
+  <testcase name="應該成功取消訂單並釋放庫存" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.002"/>
+  <testcase name="應該成功退款訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.002"/>
+  <testcase name="應該成功標記訂單為已付款" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.002"/>
+  <testcase name="應該成功確認訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.001"/>
+  <testcase name="應該成功出貨訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.002"/>
+  <testcase name="當取消已付款訂單時應該拋出異常" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.002"/>
+  <testcase name="應該成功送達訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.002"/>
+  <testcase name="當訂單不存在時應該拋出異常" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.002"/>
+  <testcase name="應該成功取消訂單並釋放庫存" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.001"/>
+  <testcase name="應該成功退款訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.001"/>
+  <testcase name="應該成功標記訂單為已付款" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.002"/>
+  <testcase name="應該成功確認訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.001"/>
+  <testcase name="應該成功出貨訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.001"/>
+  <testcase name="當取消已付款訂單時應該拋出異常" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.001"/>
+  <testcase name="應該成功送達訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.001"/>
+  <testcase name="當訂單不存在時應該拋出異常" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderStatusTransitionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

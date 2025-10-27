@@ -1,0 +1,61 @@
+spring:
+  profiles:
+    active: test
+  
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+    
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.H2Dialect
+        
+  h2:
+    console:
+      enabled: true
+      
+  redis:
+    host: localhost
+    port: 6379
+    timeout: 2000ms
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    
+logging:
+  level:
+    com.ecommerce.payment: DEBUG
+    org.springframework.web: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    
+# Payment service specific configuration
+payment:
+  gateway:
+    timeout: 30s
+    retry:
+      max-attempts: 3
+      delay: 1s
+  notification:
+    enabled: true
+    async: true
+  limits:
+    single-payment: 100000
+    daily-payment: 500000
+    retry-attempts: 3
+    timeout-minutes: 30

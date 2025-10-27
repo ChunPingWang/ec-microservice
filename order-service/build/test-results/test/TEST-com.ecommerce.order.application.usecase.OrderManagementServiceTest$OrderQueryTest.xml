@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="訂單查詢測試" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.09">
+  <properties/>
+  <testcase name="應該成功取得客戶所有訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderQueryTest" time="0.002"/>
+  <testcase name="應該成功取得客戶最新訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderQueryTest" time="0.002"/>
+  <testcase name="應該成功取得客戶指定日期範圍的訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderQueryTest" time="0.002"/>
+  <testcase name="當客戶沒有訂單時應該拋出異常" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderQueryTest" time="0.002"/>
+  <testcase name="應該成功取得客戶指定狀態的訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderQueryTest" time="0.001"/>
+  <testcase name="應該成功取得訂單詳細資訊" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderQueryTest" time="0.002"/>
+  <testcase name="應該成功取得客戶所有訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderQueryTest" time="0.001"/>
+  <testcase name="應該成功取得客戶最新訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderQueryTest" time="0.001"/>
+  <testcase name="應該成功取得客戶指定日期範圍的訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderQueryTest" time="0.001"/>
+  <testcase name="當客戶沒有訂單時應該拋出異常" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderQueryTest" time="0.001"/>
+  <testcase name="應該成功取得客戶指定狀態的訂單" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderQueryTest" time="0.002"/>
+  <testcase name="應該成功取得訂單詳細資訊" classname="com.ecommerce.order.application.usecase.OrderManagementServiceTest$OrderQueryTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

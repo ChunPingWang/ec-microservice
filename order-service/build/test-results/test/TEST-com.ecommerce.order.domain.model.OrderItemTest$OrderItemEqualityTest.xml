@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="訂單項目相等性測試" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.36">
+  <properties/>
+  <testcase name="相同ID的訂單項目應該相等" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemEqualityTest" time="0.001"/>
+  <testcase name="與null或不同類型物件比較應該不相等" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemEqualityTest" time="0.0"/>
+  <testcase name="相同ID的訂單項目應該相等" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemEqualityTest" time="0.001"/>
+  <testcase name="與null或不同類型物件比較應該不相等" classname="com.ecommerce.order.domain.model.OrderItemTest$OrderItemEqualityTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

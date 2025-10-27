@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="訂單金額驗證測試" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.492">
+  <properties/>
+  <testcase name="當訂單總金額為零時應該拋出異常" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$OrderAmountValidationTest" time="0.002"/>
+  <testcase name="當訂單金額超過上限時應該拋出異常" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$OrderAmountValidationTest" time="0.001"/>
+  <testcase name="應該成功驗證有效的訂單金額" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$OrderAmountValidationTest" time="0.001"/>
+  <testcase name="當最終金額計算錯誤時應該拋出異常" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$OrderAmountValidationTest" time="0.001"/>
+  <testcase name="當訂單總金額為負數時應該拋出異常" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$OrderAmountValidationTest" time="0.001"/>
+  <testcase name="當訂單總金額為零時應該拋出異常" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$OrderAmountValidationTest" time="0.0"/>
+  <testcase name="當訂單金額超過上限時應該拋出異常" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$OrderAmountValidationTest" time="0.0"/>
+  <testcase name="應該成功驗證有效的訂單金額" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$OrderAmountValidationTest" time="0.0"/>
+  <testcase name="當最終金額計算錯誤時應該拋出異常" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$OrderAmountValidationTest" time="0.001"/>
+  <testcase name="當訂單總金額為負數時應該拋出異常" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$OrderAmountValidationTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="狀態轉換邏輯完整性測試" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.358">
+  <properties/>
+  <testcase name="驗證不允許的狀態跳躍" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionCompletenessTest" time="0.0"/>
+  <testcase name="每個狀態都不應該能轉換到自己" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionCompletenessTest" time="0.0"/>
+  <testcase name="驗證完整的訂單生命週期路徑" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionCompletenessTest" time="0.001"/>
+  <testcase name="驗證不允許的狀態跳躍" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionCompletenessTest" time="0.0"/>
+  <testcase name="每個狀態都不應該能轉換到自己" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionCompletenessTest" time="0.0"/>
+  <testcase name="驗證完整的訂單生命週期路徑" classname="com.ecommerce.order.domain.model.OrderStatusTest$StatusTransitionCompletenessTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

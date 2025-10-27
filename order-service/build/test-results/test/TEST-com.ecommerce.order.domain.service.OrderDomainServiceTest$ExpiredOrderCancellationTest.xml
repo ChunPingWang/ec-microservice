@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="超時訂單自動取消測試" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.488">
+  <properties/>
+  <testcase name="應該自動取消超時的PENDING訂單" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$ExpiredOrderCancellationTest" time="0.007"/>
+  <testcase name="不應該取消已付款的訂單" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$ExpiredOrderCancellationTest" time="0.002"/>
+  <testcase name="應該自動取消超時的PENDING訂單" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$ExpiredOrderCancellationTest" time="0.001"/>
+  <testcase name="不應該取消已付款的訂單" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$ExpiredOrderCancellationTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

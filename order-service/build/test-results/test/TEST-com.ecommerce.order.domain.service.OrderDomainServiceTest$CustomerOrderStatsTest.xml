@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="客戶訂單統計測試" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-10-26T15:32:41" hostname="RexdeMacBook-Pro.local" time="0.498">
+  <properties/>
+  <testcase name="應該正確計算客戶訂單統計資訊" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$CustomerOrderStatsTest" time="0.006"/>
+  <testcase name="當客戶沒有訂單時統計資訊應該為零" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$CustomerOrderStatsTest" time="0.001"/>
+  <testcase name="應該正確計算客戶訂單統計資訊" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$CustomerOrderStatsTest" time="0.001"/>
+  <testcase name="當客戶沒有訂單時統計資訊應該為零" classname="com.ecommerce.order.domain.service.OrderDomainServiceTest$CustomerOrderStatsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="付款通知服務測試" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-10-27T06:03:32" hostname="RexdeMacBook-Pro.local" time="0.653">
+  <properties/>
+  <testcase name="處理退款事件並發送通知" classname="com.ecommerce.payment.application.service.PaymentNotificationServiceTest" time="0.609"/>
+  <testcase name="發送付款狀態通知 - 失敗付款" classname="com.ecommerce.payment.application.service.PaymentNotificationServiceTest" time="0.013"/>
+  <testcase name="發送付款提醒通知" classname="com.ecommerce.payment.application.service.PaymentNotificationServiceTest" time="0.002"/>
+  <testcase name="重新發送失敗的通知" classname="com.ecommerce.payment.application.service.PaymentNotificationServiceTest" time="0.005"/>
+  <testcase name="通知服務健康檢查" classname="com.ecommerce.payment.application.service.PaymentNotificationServiceTest" time="0.001"/>
+  <testcase name="處理付款失敗事件並發送通知" classname="com.ecommerce.payment.application.service.PaymentNotificationServiceTest" time="0.002"/>
+  <testcase name="發送付款超時通知" classname="com.ecommerce.payment.application.service.PaymentNotificationServiceTest" time="0.002"/>
+  <testcase name="處理通知發送異常" classname="com.ecommerce.payment.application.service.PaymentNotificationServiceTest" time="0.005"/>
+  <testcase name="處理付款成功事件並發送通知" classname="com.ecommerce.payment.application.service.PaymentNotificationServiceTest" time="0.001"/>
+  <testcase name="發送批量付款通知" classname="com.ecommerce.payment.application.service.PaymentNotificationServiceTest" time="0.002"/>
+  <testcase name="發送付款狀態通知 - 取消付款" classname="com.ecommerce.payment.application.service.PaymentNotificationServiceTest" time="0.001"/>
+  <testcase name="發送付款狀態通知 - 成功付款" classname="com.ecommerce.payment.application.service.PaymentNotificationServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[NOTIFICATION_ERROR] Failed to send PaymentSuccess notification for transaction TXN-123456: Notification service unavailable
+]]></system-err>
+</testsuite>

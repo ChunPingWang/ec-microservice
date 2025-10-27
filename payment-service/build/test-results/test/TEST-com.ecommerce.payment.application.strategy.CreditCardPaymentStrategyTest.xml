@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="信用卡付款策略測試" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-10-27T06:03:33" hostname="RexdeMacBook-Pro.local" time="0.039">
+  <properties/>
+  <testcase name="成功處理退款" classname="com.ecommerce.payment.application.strategy.CreditCardPaymentStrategyTest" time="0.02"/>
+  <testcase name="支援的付款方式應為信用卡" classname="com.ecommerce.payment.application.strategy.CreditCardPaymentStrategyTest" time="0.001"/>
+  <testcase name="查詢付款狀態成功" classname="com.ecommerce.payment.application.strategy.CreditCardPaymentStrategyTest" time="0.001"/>
+  <testcase name="無效卡號驗證" classname="com.ecommerce.payment.application.strategy.CreditCardPaymentStrategyTest" time="0.002"/>
+  <testcase name="閘道不可用時返回網路錯誤" classname="com.ecommerce.payment.application.strategy.CreditCardPaymentStrategyTest" time="0.001"/>
+  <testcase name="檢查服務可用性" classname="com.ecommerce.payment.application.strategy.CreditCardPaymentStrategyTest" time="0.001"/>
+  <testcase name="過期卡片驗證" classname="com.ecommerce.payment.application.strategy.CreditCardPaymentStrategyTest" time="0.001"/>
+  <testcase name="退款請求驗證失敗" classname="com.ecommerce.payment.application.strategy.CreditCardPaymentStrategyTest" time="0.001"/>
+  <testcase name="金額過大驗證" classname="com.ecommerce.payment.application.strategy.CreditCardPaymentStrategyTest" time="0.002"/>
+  <testcase name="金額過小驗證" classname="com.ecommerce.payment.application.strategy.CreditCardPaymentStrategyTest" time="0.001"/>
+  <testcase name="成功處理信用卡付款" classname="com.ecommerce.payment.application.strategy.CreditCardPaymentStrategyTest" time="0.001"/>
+  <testcase name="無效CVV驗證" classname="com.ecommerce.payment.application.strategy.CreditCardPaymentStrategyTest" time="0.001"/>
+  <testcase name="服務不可用時返回false" classname="com.ecommerce.payment.application.strategy.CreditCardPaymentStrategyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
